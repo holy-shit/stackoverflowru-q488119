@@ -7,6 +7,7 @@
     <groupId>com.olegchir.stackoverflowru</groupId>
     <artifactId>q488119</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
@@ -30,6 +31,14 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <configuration>
+                    <mainClass>com.olegchir.stackoverflowru.q488119.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>

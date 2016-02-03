@@ -1,4 +1,4 @@
-package com.olegchir.stackoverflowru;
+package com.olegchir.stackoverflowru.q488119;
 
 import com.github.javaparser.ASTHelper;
 import com.github.javaparser.JavaParser;
